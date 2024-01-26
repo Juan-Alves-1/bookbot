@@ -1,4 +1,3 @@
 # bookbot
-Library using Python - **Boot.dev**
-
+Library using Python by **Boot.dev**
 - This is one of my first projects on GitHub

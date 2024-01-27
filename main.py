@@ -8,6 +8,10 @@ def main():
     for letter, count in sorted(num_each_letter.items()):
         print(f"The letter '{letter}' appears {count} times")
 
+'''To order by descending occurrence 
+    for letter, count in sorted(num_each_letter.items(), key=lambda item: item[1], reverse=True):
+    print(f"The letter '{letter}' appears {count} times")'''
+
 # Split the text into words: str.split(sep=None, maxsplit=-1)
 def count_words(text):
     words = text.split()
